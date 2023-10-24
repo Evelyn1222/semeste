@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
-=======
 ﻿using System;
 
 namespace Programa8u3
@@ -28,4 +24,3 @@ namespace Programa8u3
     }
 }
 
->>>>>>> fe10cea32785960efb61954072686b63cd5290ed
