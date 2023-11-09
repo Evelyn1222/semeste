@@ -1,24 +1,36 @@
 ﻿
 
 using System;
-namespace U3program5
+namespace program2U4
 {
     internal class program2U4
     {
         static void Main(string[] args)
         {
-            int[] C = new int[] { 70, 69, 34, 70, 78, 90, 100, 21, 69, 100 };
-            int S = 0, promedio = 0;
-            int i;
 
-            for (i = 0; i < C.Length; i++)
+            int S = 0;
+            int promedio = 0;
+            int C;
+            int tamaño;
+            Console.WriteLine("escribe las calificaciones al procesar:");
+            tamaño = Convert.ToInt32(Console.ReadLine());
+            int[] Calf= new int[tamaño];
+
+
+            for (C= 0; C < Calf.Length; C++)
             {
+                Console.WriteLine("escribe la calificacion:");
+                Calf[C] = Convert.ToInt32(Console.ReadLine());
+                S = Calf[C];
 
-                S += C[i];
 
-                promedio = S / C.Length;
+
             }
-            Console.WriteLine("EL PROMEDIO DE LAS CALIFICACIONES ES:  " + promedio);
+               
+                promedio = S / Calf.Length;
+
+
+            Console.WriteLine("EL PROMEDIO DE LAS CALIFICACIONES ES:  " + promedio );
         }
     }
 }
